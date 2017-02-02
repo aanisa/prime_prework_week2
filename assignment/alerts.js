@@ -7,12 +7,21 @@ console.log('Script sourced!');
   // var animal =
 // Once you have the animal variable. Write your conditional statement.
 // Use these exact strings: 'Try again.' and 'How did you know?!'.
-
+var animalGuess = function (animalName) {
+var animal = prompt("Of what animal am I thinking?");
+  if (turtle) {
+    console.log("How did you know?");
+  }
+  else {
+    console.log("Try again.");
+  }
+};
 // * Step Two * - Refactor into a function
 // Call the function by passing the animal variable into it
 
 function animalGuess(animalName){
   // if statement goes in here.
+
 }
 
 // What will this log?
