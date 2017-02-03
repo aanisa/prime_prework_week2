@@ -25,6 +25,6 @@ var animal = prompt("Of what animal am I thinking?");
 animalGuess(animal);
 
 // What will this log?
-//It will log an error since animalName is not defined. 
+//It will log an error since animalName is not defined.
 
 console.log(animalName);
