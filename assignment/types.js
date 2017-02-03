@@ -16,7 +16,6 @@
 		// if it's none of those, but it is an object, log "everything is an object"
     // if it is anything else, print out "I can't double this"
 
-
 var theDoubler = prompt("Test The Doubler! Put something in here you would like to try, then check the console!");
 
 var theDoubler = function (someInput) {
