@@ -3,41 +3,42 @@
 // we accept strings and numbers and booleans and objects and try to double them
 // and expect output of the type
 
-var theDoubler = prompt("Test theDoubler! Put something in here you would like to try, then check the console!");
 
-function theDoubler(someInput) {
-	// typeof is a built in javascript tool that allows us to find the type of an object
-    // for number, we have given an example of how that works
+// typeof is a built in javascript tool that allows us to find the type of an object
+	// for number, we have given an example of how that works
 
+		// if type is number, log that number multiplied by 2
+		// if type is string pass back that string twice
+		// e.g. sending "someString" in, should log "someStringsomeString"
+		// if the user inputs a boolean (true or false)
+		// log "I won't double this" if it is false
+		// log "Super-duper true" if it is true
+		// if it's none of those, but it is an object, log "everything is an object"
+    // if it is anything else, print out "I can't double this"
+
+
+var theDoubler = prompt("Test The Doubler! Put something in here you would like to try, then check the console!");
+
+var theDoubler = function (someInput) {
  if (typeof someInput == "number") {
-			result (someInput * 2);
-			// if type is number, log that number multiplied by 2
+			return (someInput * 2);
 	}
  else if (typeof someInput =="string") {
-			result (someInput + someInput);
+			return (someInput + someInput);
 }
-	// if type is string pass back that string twice
-	// e.g. sending "someString" in, should log "someStringsomeString"
-
 else if (typeof someInput == "boolean") {
 	if (someInput === false) {
-		console.log("I won't double this");
+			return ("I won't double this");
 	} else {
-		console.log("super-duper true");
+			return ("super-duper true");
 	}
 }
-	// if the user inputs a boolean (true or false)
-	// log "I won't double this" if it is false
-	// log "Super-duper true" if it is true
-
-else if (typeof someInput == "object"){
-	console.log("everything is an object");
+else if (typeof someInput == "object") {
+		return ("everything is an object");
 }
-	// if it's none of those, but it is an object, log "everything is an object"
-
 else {
-	console.log("I can't double this");
+	  return ("I can't double this");
 }
-	// if it is anything else, print out "I can't double this"
+};
 
-}
+console.log(theDoubler("hey"));
