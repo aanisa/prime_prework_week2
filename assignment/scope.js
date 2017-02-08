@@ -26,7 +26,7 @@ function thePizzeria() {
 
     console.log(michelangelo(theNumber) + leonardo(theNumber));
     // ^ What number would you expect the line above to evaluate to?
-    console.log(/* Replace this comment with your answer */);
+    console.log(7);
 
 
     theNumber = theNumber * 2;
