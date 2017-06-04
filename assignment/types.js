@@ -1,11 +1,8 @@
-<<<<<<< HEAD
-
-
 var nmbr = 12;
 var strng = "here ";
 var bln = true;
 var obj = {};
-=======
+
 // We've created a function called "The Doubler"
 // the function accepts a bunch of different inputs from the caller.
 // It accepts strings, numbers, booleans and objects and tries to double them.
@@ -19,7 +16,6 @@ theDoubler(someNumber);
 function theDoubler(someInput) {
 	// typeof is a built in javascript tool that allows us to find the type of an object
   // for number, we have given an example of how that works
->>>>>>> 8cff070463775184604ce291af1ed3973b1c9d33
 
 var theDoubler = function (someInput) {
  if (typeof someInput == "number") {
