@@ -24,16 +24,11 @@ function thePizzeria() {
         return yetAnotherValue;
     };
 
-<<<<<<< HEAD
+]
     console.log(michelangelo(theNumber) + leonardo(theNumber));
     // ^ What number would you expect the line above to evaluate to?
     console.log(7);
-=======
-    // michelangelo(theNumber) + leonardo(theNumber);
-    // ^ Before running the script, what number would you expect the line above to evaluate to?
-    console.log(/* Replace this comment with your answer */);
->>>>>>> 8cff070463775184604ce291af1ed3973b1c9d33
-
+    
 
     theNumber = theNumber * 2;
 
