@@ -39,5 +39,3 @@ This is a very difficult assignment for your first week with Javascript, so don'
 
 ### Files Provided
 * scope.js - Open up the file and take a look at it. See if you can figure out how it all works. Then try to figure out what the values are that would be written in the console log statements.
-
-Once you have completed the work for the week, make sure to check your Repo in and submit against the Prime Academy Assignment Application! Good Luck!
