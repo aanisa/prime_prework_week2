@@ -14,9 +14,6 @@ var animal = prompt("Of what animal am I thinking?");
 
 animalGuess(animal);
 
-<<<<<<< HEAD
-console.log(animal);
-=======
 // What will this log?
 // console.log(animalName);
->>>>>>> 8cff070463775184604ce291af1ed3973b1c9d33
+
