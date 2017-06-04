@@ -1,4 +1,6 @@
-## Week 2 Assignment, Pt.1
+# Prime Digital Academy - Pre-Work Week 2 Assignment 
+===
+## Pt.1
 ## Getting User Input, Conditionals, and Scope
 Animal guessing game. When the page is loaded the user is prompted to guess an animal. Once they submit their answer the program will either tell them that they correctly guessed the animal or that they should try again.
 
@@ -19,7 +21,7 @@ Refactor your code above into a function called `animalGuess`, using the scaffol
 * index.html - Sources the JavaScript file (`script.js`). There isn't much happening here and you are not required to make changes to this file.
 * alerts.js - This is where you will add your code. We have provided some scaffolding code and comments to help you get started.
 
-## Week 2 Assignment, Pt.2
+## Pt.2
 We are going to create an application where you create a variable, and then create a function that doubles it! But there is a catch, its going to not just double numbers, but also strings! For example, if the checked variable is a number, like 2, it will double it to 4. But if a string is entered, like "SuperCat", it would double it to "SuperCatSuperCat". Neat right? Also, let's make it smart enough to know if it receives an Object. If it does detect an Object, have the console log say "everything is an object". Finally, if it detects one of the two boolean values, let's have a special case for them as well. If the value is true, lets log "super-duper true", if false, have it say "I won't double this".
 
 If NONE of these conditions are true, lets have the console log say "I can't double this".
@@ -30,7 +32,7 @@ In the provided .JS file called 'types.js', update the code in the flagged spots
 * index.html - Sources the JavaScript file (`script.js`). There isn't much happening here and you are not required to make changes to this file. Note that this is the same index.html as mentioned in the previous portion of the assignment.
 * types.js - This is where you will add your code. We have provided some scaffolding code and comments to help you get started. Replace the flags with the code that completes the functionality mentioned above.
 
-## Week 2 Assignment, Pt.3 - Optional Pro Mode!
+## Pt.3 - Optional Pro Mode!
 Check out the scope.js file provided in the folder. In there, you will find a function, that when run will produce a couple of different numbers. For this assignment, work through the code without the use of the computer. The objective is to think critically about how the code is executed and see if you can figure out what the answer is for each of the two console logs. This will require you to stretch your understanding of Functions, Scope, and how Variables work.
 
 This is a very difficult assignment for your first week with Javascript, so don't get frustrated if you test the code out, and don't come to the same conclusion as the code did. Instead, try to work through why the answers are the way they are. If you got them right, then you should order up some Pizza and celebrate your understanding of these difficult topics!
